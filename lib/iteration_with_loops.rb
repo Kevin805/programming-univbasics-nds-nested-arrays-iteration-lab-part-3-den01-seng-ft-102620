@@ -11,5 +11,6 @@ def join_nested_strings(src)
   end
   row_index += 1 
  end
+ src[row_index][element_index].join(' ')
  return results
 end
